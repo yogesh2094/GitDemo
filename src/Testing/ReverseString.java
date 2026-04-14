@@ -15,6 +15,11 @@ public class ReverseString {
 			result+=c;
 		}
 		System.out.println("Reverse String is : " +result);
+		
+		
+		StringBuffer sb=new StringBuffer("Mugdha");
+		StringBuffer rev=sb.reverse();
+		System.out.println("Reverse String using StringBuffer is : " +rev);
 	}
 
 }
